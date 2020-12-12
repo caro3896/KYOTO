@@ -13,15 +13,36 @@ section img {
 
 /* Nav */
 header {
-    margin: 5px;
+    margin: 8px;
+    margin-bottom: 0;
+    margin-left: 0;
 }
 
 nav img {
-    height: 15px;
+    height: 20px;
+    padding-right: 20vw;
+    padding-left: 20px;
 }
 
-nav a {
-    font-family:
+nav {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid black 1px;
+}
+
+nav .menu a {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    padding-left: 8vw;
+}
+
+nav .menu a:hover {
+    text-decoration: underline;
 }
 
 /* FONTS */
@@ -29,14 +50,15 @@ nav a {
 /* H1 */
 h1 {
     font-family: 'Helvetica Neue', sans-serif;
-    font-size: 30px;
+    font-size: 45px;
     font-weight: 200;
+    text-transform: uppercase;
 }
 
 /* H2 */
 h2 {
     font-family: 'Helvetica Neue', sans-serif;
-    font-size: 50px;
+    font-size: 55px;
     font-weight: 200;
     text-transform: uppercase;
     margin-bottom: 0;
