@@ -1,0 +1,105 @@
+body {
+    background-image: url(selected_items_content/Group%2096.png);
+    background-repeat: repeat-y;
+    /*gentager billed , men kun ned af*/
+    background-position: right top;
+    background-attachment: fixed;
+    /*fixer pos til bagrunden*/
+    background-size: 0.8rem;
+}
+
+
+h1 {
+    text-align: center;
+    margin: 0;
+    padding: 20px 0 5px 0;
+}
+
+
+h3 {
+    margin: 0;
+    padding: 25px;
+}
+
+p {
+    margin: 0;
+    padding: 25px;
+}
+
+img {
+    padding: 25px;
+}
+
+#second_section .section_wrapper {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 50px 0px 50px 0px;
+    text-align: center;
+    transition: 0.9s;
+}
+
+#second_section p {
+    padding: 0;
+    font-size: 1rem;
+}
+
+#second_section .section_wrapper .botton {
+    width: 200px;
+    border: solid 1px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    margin: 0px auto 25px auto;
+}
+
+#second_section .section_wrapper .botton:hover {
+    color: #000000;
+    background: rgb(255, 255, 255);
+    /*
+    transform: scale(1.1);*/
+}
+
+#second_section .section_wrapper:hover {
+    transform: scale(1.1);
+}
+
+/*------------------------ MEDIA Q ---------------------------*/
+
+@media (min-width: 600px) {
+    body {
+        background-size: 1rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        padding: 80px 50px 20px 75px;
+    }
+
+    p {
+        padding: 20px 75px 20px 75px;
+    }
+
+    #first_section .section_wrapper {
+        display: grid;
+        grid-template-columns: 40vw 60vw;
+    }
+
+    #first_section img {
+        padding: 0;
+    }
+
+    #third_section .section_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 20px 50px;
+
+    }
+
+
+}
