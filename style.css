@@ -103,7 +103,7 @@ p {
 }
 
 /* a */
-main a {
+a {
     font-family: 'Helvetica Neue', sans-serif;
     font-size: 20px;
     font-weight: 200;
@@ -115,7 +115,7 @@ main a {
     clear: both;
     position: relative;
     width: 100%;
-    height: 350px;
+    height: 200px;
 }
 
 #footer .section_wrapper {
@@ -123,6 +123,10 @@ main a {
     grid-template-columns: 1fr 2fr;
     column-gap: 10px;
     border-top: 1px solid black;
+}
+
+#footer img {
+    height: 18vw;
 }
 
 #footer .col {
@@ -142,7 +146,7 @@ main a {
 
 .fa {
     padding: 10px;
-    width: 16px;
+    width: 36px;
     text-align: center;
     text-decoration: none;
     background: white;
