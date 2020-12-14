@@ -1,0 +1,117 @@
+p {
+    /* Venstre Stillet Tekst*/
+    text-align: left;
+    /* Font Type*/
+    font-family: 'Helvetica Neue', sans-serif;
+    /* Tekst Størrelse*/
+    font-size: 16px;
+    /* Tekst Tykkelse*/
+    font-weight: 200;
+    /* Linje Afstand*/
+    line-height: 25px;
+    margin: 0;
+    padding: 0;
+    /* Padding/Afstand fra top*/
+    padding-top: 10px;
+
+}
+
+h1 {
+    /* Venstre Stillet Tekst*/
+    text-align: left;
+    /* Font Type*/
+    font-family: 'Helvetica Neue', sans-serif;
+    /* Tekst Størrelse*/
+    font-size: 45px;
+    /* Tekst Tykkelse*/
+    font-weight: 200;
+    /* Tekst Streg - Farve - Tykkelse*/
+    border-bottom: solid black 2px;
+    /* Padding/Afstand fra top*/
+    padding-top: 160px;
+
+}
+
+h3 {
+    /* Venstre Stillet Tekst*/
+    text-align: left;
+    /* Font Type*/
+    font-family: 'Helvetica Neue', sans-serif;
+    /* Tekst Størrelse*/
+    font-size: 20px;
+    /* Tekst Tykkelse*/
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+    /* Tekst Streg - Farve - Tykkelse*/
+    border-bottom: solid black 2px;
+    /* Padding/Afstand fra venstre*/
+    padding-left: 0;
+    /* Padding/Afstand fra top*/
+    padding-top: 10px;
+}
+
+
+#first_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    /*Lodret linjeafstand mellem grid*/
+    grid-column-gap: 40px;
+    margin-left: -8px;
+
+}
+
+
+#first_section .section_wrapper .col_wide .row {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    column-gap: 10px;
+    /*Lodret linjeafstand mellem grid*/
+    /*    grid-column-gap: 20px;*/
+}
+
+#first_section .section_wrapper img {
+    display: block;
+    height: 900px;
+    object-fit: cover;
+
+}
+
+.times {
+    text-align: right;
+    /* Font Type*/
+    font-family: 'Helvetica Neue', sans-serif;
+    /* Tekst Størrelse*/
+    font-size: 16px;
+    /* Tekst Tykkelse*/
+    font-weight: 200;
+    /* Linje Afstand*/
+    line-height: 10px;
+    margin: 0;
+    padding: 0;
+    /* Padding/Afstand fra top*/
+    padding-right: 50px;
+}
+
+/*
+
+#first_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 20px;
+
+}
+
+#first_section .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+#first_section .col_tekst {
+    display: flex;
+
+}
+*/
