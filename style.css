@@ -61,8 +61,10 @@ nav .menu a:hover {
 /* H1 */
 h1 {
     font-family: 'Helvetica Neue', sans-serif;
-    font-size: 45px;
+    font-size: rem;
     font-weight: 200;
+    color: white;
+    text-align: center;
     text-transform: uppercase;
 }
 
