@@ -19,7 +19,16 @@ section img {
     width: 100%;
 }
 
+section {
+    margin-top: 35px;
+}
+
 /* Nav */
+
+header {
+    height: 0;
+    background-color: white;
+}
 
 nav img {
     height: 25px;
@@ -30,6 +39,8 @@ nav img {
 
 nav {
     width: 100vw;
+    top: 0;
+    height: auto;
     display: flex;
     flex-direction: row;
     border-bottom: solid black 1px;
