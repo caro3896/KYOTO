@@ -5,6 +5,14 @@
 
 body {
     margin: auto 0;
+
+    background-image: url(selected_items_content/Group%2096.png);
+    background-repeat: repeat-y;
+    /*gentager billed , men kun ned af*/
+    background-position: right top;
+    background-attachment: fixed;
+    /*fixer pos til bagrunden*/
+    background-size: 1rem;
 }
 
 section img {
@@ -12,23 +20,27 @@ section img {
 }
 
 /* Nav */
-header {
-    margin: 8px;
-    margin-bottom: 0;
-    margin-left: 0;
-}
 
 nav img {
-    height: 20px;
+    height: 25px;
     padding-right: 20vw;
     padding-left: 20px;
+    padding-top: 5px;
 }
 
 nav {
     width: 100vw;
+    height: 30px;
     display: flex;
     flex-direction: row;
     border-bottom: solid black 1px;
+    z-index: 1;
+    background-color: white;
+    position: fixed;
+}
+
+nav .menu {
+    padding-top: 5px;
 }
 
 nav .menu a {
