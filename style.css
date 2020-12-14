@@ -105,9 +105,17 @@ p {
 /* a */
 a {
     font-family: 'Helvetica Neue', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 200;
     line-height: 30px;
+}
+
+a:visited {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 30px;
+    color: black;
 }
 
 /* Footer */
