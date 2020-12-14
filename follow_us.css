@@ -1,8 +1,9 @@
+            /*
     #first_section .section_wrapper {
         margin-left: 20px;
     }
     #first_section img {
-        width: 400px;
+        width: 100%;
     }
     #first_section .section_wrapper {
         display: grid;
@@ -13,6 +14,12 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 10px;
+    }
+    #first_section img:hover {
+        transform: scale(1.1);
+    }
+    #first_section img {
+        transition: 0.5s;
     }
     #first_section .col a {
         padding: 10px;
@@ -42,3 +49,88 @@
         margin-top: 50px;
         margin-left: 70px;
     }
+*/
+
+            .col {
+                padding-top: 20px;
+            }
+            #first_section .some {
+                margin-bottom: 70px;
+                margin-top: 0px;
+                margin-left: 70px;
+            }
+            h5 {
+                margin-left: 70px;
+                margin-top: 50px;
+                color: black;
+            }
+            @media (min-width: 600px) {
+                #first_section .section_wrapper {
+                    margin-left: 20px;
+                }
+                #first_section img {
+                    width: 100%;
+                }
+                #first_section .section_wrapper {
+                    display: grid;
+                    grid-template-columns: 1fr 3fr;
+                    grid-column-gap: 20px;
+                }
+                #first_section .col {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    /*        grid-gap: 10px;*/
+                }
+                /*
+                #first_section img:hover {
+     transform: scale(1.1);
+ }
+ #first_section img {
+     transition: 0.5s;
+ }
+*/
+                #first_section .col a {
+                    padding: 10px;
+                }
+                #first_section .col1 {
+                    display: flex;
+                    flex-direction: column;
+                }
+                h1 {
+                    margin-left: -160px;
+                    margin-top: 70px;
+                    color: black;
+                }
+                h3 {
+                    color: black;
+                }
+                #first_section a:link {
+                    font-family: 'Helvetica Neue', sans-serif;
+                    color: #000000;
+                }
+                #first_section a:active {
+                    color: #000000;
+                }
+                #first_section a:visited {
+                    color: #000000;
+                }
+                #first_section a:hover {
+                    color: #4E643C;
+                }
+            }
+            @media (min-width 1000px) {
+                #first_section .some {
+                    margin-bottom: 50px;
+                    margin-top: 50px;
+                    margin-left: 70px;
+                }
+                #first_section .col {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                }
+                h1 {
+                    margin-left: -160px;
+                    margin-top: 50px;
+                    color: black;
+                }
+            }
