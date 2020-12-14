@@ -23,7 +23,7 @@ section img {
 
 nav img {
     height: 25px;
-    padding-right: 20vw;
+    padding-right: 15vw;
     padding-left: 20px;
     padding-top: 5px;
 }
@@ -97,6 +97,14 @@ h4 {
 p {
     font-family: 'Helvetica Neue', sans-serif;
     font-size: 16px;
+    font-weight: 200;
+    line-height: 30px;
+}
+
+/* a */
+main a {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 20px;
     font-weight: 200;
     line-height: 30px;
 }
