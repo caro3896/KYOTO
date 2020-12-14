@@ -20,6 +20,7 @@
 /* Second section */
 #second_section video {
     width: 100vw;
+    margin-top: -6px;
 }
 
 /* Third section */
@@ -40,6 +41,7 @@
 #third_section img {
     height: 1000px;
     object-fit: cover;
+    margin-top: -6px;
 }
 
 /* Fourth section */
@@ -47,6 +49,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 0px;
+}
+
+#fourth_section img {
+    margin-top: -6px;
 }
 
 /* Fifth section */
