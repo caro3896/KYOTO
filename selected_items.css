@@ -26,9 +26,6 @@ p {
     padding: 25px;
 }
 
-img {
-    padding: 25px;
-}
 
 #second_section .section_wrapper {
     background-color: black;
@@ -64,6 +61,11 @@ img {
 
 #second_section .section_wrapper:hover {
     transform: scale(1.1);
+}
+
+#third_section .section_wrapper {
+    grid-column-gap: 4vw;
+    grid-row-gap: 4vw;
 }
 
 /*------------------------ MEDIA Q ---------------------------*/
