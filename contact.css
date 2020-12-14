@@ -31,7 +31,7 @@ h1 {
 
 }
 
-h3 {
+#first_section h3 {
     /* Venstre Stillet Tekst*/
     text-align: left;
     /* Font Type*/
@@ -50,6 +50,7 @@ h3 {
     padding-top: 10px;
     margin: 20px 0px 20px 0px;
 }
+
 
 .fa {
     padding: 10px;
