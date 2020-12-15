@@ -18,20 +18,20 @@ main h1 {
 
 main h5 {
     margin-top: 20px;
-    padding: 25px;
+    padding: 25px 25px 0px 25px;
 }
 
 main p {
     margin: 0;
-    padding: 25px;
+    padding: 0px 25px 25px 25px;
 }
 
 
 #second_section .section_wrapper {
     background-color: black;
     color: white;
-    padding: 10px;
-    margin: 50px 0px 50px 0px;
+    padding: 0 10px 10px 10px;
+    margin: 0px 0px 50px 0px;
     text-align: center;
     transition: 0.9s;
 }
@@ -96,7 +96,11 @@ main p {
     }
 
     main p {
-        padding: 10px 75px 20px 75px;
+        padding: 0px 75px 0 75px;
+    }
+
+    .col {
+        padding: 0;
     }
 
     #first_section .section_wrapper {
@@ -106,6 +110,10 @@ main p {
 
     #first_section img {
         padding: 0;
+    }
+
+    #second_section {
+        margin-top: 0;
     }
 
     #third_section .section_wrapper {
