@@ -139,7 +139,7 @@ a:hover {
     left: 160px;
 }
 
-button {
+#first_section .section_wrapper .button {
     background-color: black;
     border: 1px solid black;
     color: white;
@@ -150,6 +150,10 @@ button {
     font-size: 15px;
     font-family: 'Helvetica Neue', sans-serif;
     font-weight: 200;
+}
+
+#first_section .section_wrapper a {
+    color: white;
 }
 
 button:hover {
