@@ -21,8 +21,9 @@ main::before {
 }
 
 
-section img {
+img {
     width: 100%;
+    height: auto;
 }
 
 section {
@@ -161,6 +162,7 @@ footer .section_wrapper {
 
 footer img {
     height: 18vw;
+    width: auto;
 }
 
 footer .col {
