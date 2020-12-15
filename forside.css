@@ -23,6 +23,7 @@ main::before {
 
 section img {
     width: 100%;
+    height: auto;
 }
 
 /* FONTS */
@@ -130,7 +131,6 @@ a:hover {
     top: 25vw;
     left: 160px;
     width: 15vw;
-    height: auto;
 }
 
 .shop_now {
@@ -284,6 +284,7 @@ footer .section_wrapper {
 
 footer img {
     height: 18vw;
+    width: auto;
 }
 
 footer .col {
