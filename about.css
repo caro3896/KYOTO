@@ -1,7 +1,7 @@
 /* First section */
 #first_section .section_wrapper {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 2fr;
     column-gap: 30px;
 }
 
@@ -9,11 +9,11 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding-bottom: 150px;
+    padding-bottom: 250px;
 }
 
 #first_section img {
-    height: 50vw;
+    height: 1000px;
     object-fit: cover;
 }
 
