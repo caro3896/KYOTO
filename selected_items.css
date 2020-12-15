@@ -1,27 +1,26 @@
+/*
 body {
     background-image: url(selected_items_content/Group%2096.png);
     background-repeat: repeat-y;
-    /*gentager billed , men kun ned af*/
     background-position: right top;
     background-attachment: fixed;
-    /*fixer pos til bagrunden*/
     background-size: 0.8rem;
-}
+}*/
 
 
-h1 {
+main h1 {
     font-size: 2rem;
     margin: 0;
     padding: 20px 0 5px 0;
 }
 
 
-h5 {
-    margin: 20px 0 0 0;
+main h5 {
+    margin-top: 20px;
     padding: 25px;
 }
 
-p {
+main p {
     margin: 0;
     padding: 25px;
 }
@@ -87,16 +86,16 @@ p {
         background-size: 1rem;
     }
 
-    h1 {
+    main h1 {
         font-size: 2.5rem;
     }
 
-    h5 {
-        padding: 55px 50px 20px 75px;
+    main h5 {
+        padding: 50px 50px 0px 75px;
     }
 
-    p {
-        padding: 20px 75px 20px 75px;
+    main p {
+        padding: 10px 75px 20px 75px;
     }
 
     #first_section .section_wrapper {
