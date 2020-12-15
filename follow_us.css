@@ -81,14 +81,12 @@
                     grid-template-columns: 1fr 1fr 1fr;
                     /*        grid-gap: 10px;*/
                 }
-                /*
                 #first_section img:hover {
-     transform: scale(1.1);
- }
- #first_section img {
-     transition: 0.5s;
- }
-*/
+                    transform: scale(1.1);
+                }
+                #first_section img {
+                    transition: 0.5s;
+                }
                 #first_section .col a {
                     padding: 10px;
                 }
