@@ -289,18 +289,12 @@ footer .col1 {
 footer .bottom {
 	padding-top: 20px;
 }
-.fa {
-	padding: 10px;
-	width: 36px;
-	text-align: center;
-	text-decoration: none;
-	background: white;
-	color: black;
-	border-radius: 50%;
-	border: 1px solid black;
-	transition-duration: 0.4s;
+.fottericon img {
+	width: 3vw;
+	height: auto;
+	background-color: white;
+	border-radius: 3vw;
 }
-.fa:hover {
-	background-color: black;
-	color: white;
+.fottericon img:hover {
+	filter: invert(100%)
 }
