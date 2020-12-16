@@ -24,26 +24,6 @@ h5 {
 }
 
 
-.fa {
-    padding: 10px;
-    width: 39px;
-    text-align: center;
-    text-decoration: none;
-    background: white;
-    color: black;
-    border-radius: 50%;
-    border: 1px solid black;
-    transition-duration: 0.4s;
-
-}
-
-.fa:hover {
-    background-color: black;
-    color: white;
-
-}
-
-
 
 #first_section .section_wrapper {
     display: grid;
@@ -69,6 +49,24 @@ h5 {
     object-fit: cover;
     object-position: left;
 
+}
+
+#first_section .col img {
+    width: 3vw;
+    height: auto;
+    background-color: white;
+    border-radius: 3vw;
+    display: inherit;
+}
+
+#first_section .col img:hover {
+    filter: invert(100%);
+}
+
+@media(max-width: 600px) {
+    #first_section .col img {
+        width: 5.5vw;
+    }
 }
 
 .times {
