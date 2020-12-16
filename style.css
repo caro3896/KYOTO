@@ -182,5 +182,5 @@ footer .bottom {
 	border-radius: 3vw;
 }
 .fottericon img:hover {
-	filter: invert(100%)
+	filter: invert(100%);
 }
