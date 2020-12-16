@@ -31,7 +31,7 @@ h5 {
 
     #first_section .col {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         /*        grid-gap: 10px;*/
     }
 
@@ -80,22 +80,14 @@ h5 {
     }
 }
 
-/*
-@media (min-width 1000px) {
-    #first_section .some {
-        margin-bottom: 50px;
-        margin-top: 50px;
-        margin-left: 70px;
-    }
+
+@media (min-width: 1000px) {
+
 
     #first_section .col {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    h1 {
-        margin-left: -160px;
-        margin-top: 50px;
-        color: black;
-    }
-}*/
+
+}
