@@ -298,6 +298,7 @@ footer .bottom {
 	height: auto;
 	background-color: white;
 	border-radius: 3vw;
+	display: inherit;
 }
 .fottericon img:hover {
 	filter: invert(100%)
