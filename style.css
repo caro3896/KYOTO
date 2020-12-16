@@ -182,6 +182,17 @@ footer .bottom {
     padding-top: 20px;
 }
 
+.fottericon img {
+    width: 4vw;
+    height: auto;
+    background-color: white;
+    border-radius: 4vw;
+}
+
+.fottericon img:hover {
+    filter: invert(100%)
+}
+
 .fa {
     padding: 10px;
     width: 36px;

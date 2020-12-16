@@ -79,6 +79,16 @@ main p {
     transition: 0.5s;
 }
 
+.fottericon img {
+    width: 4vw;
+    height: auto;
+    background-color: white;
+    border-radius: 4vw;
+}
+
+.fottericon img:hover {
+    filter: invert(100%)
+}
 
 /*------------------------ MEDIA Q ---------------------------*/
 
@@ -110,6 +120,8 @@ main p {
 
     #first_section img {
         padding: 0;
+        height: 100%;
+        object-fit: cover;
     }
 
     #second_section {
