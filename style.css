@@ -1,71 +1,80 @@
 /* Generelt */
 
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
+
 body {
-	margin: auto 0;
+    margin: auto 0;
 }
+
 main::before {
-	content: '';
-	position: fixed;
-	right: 10px;
-	top: 0;
-	width: 20px;
-	bottom: 0;
-	background-image: url(faelles_img/Logo1.png);
-	background-size: contain;
-	background-repeat: space;
-	z-index: 1;
+    content: '';
+    position: fixed;
+    right: 10px;
+    top: 0;
+    width: 20px;
+    bottom: 0;
+    background-image: url(faelles_img/Logo1.png);
+    background-size: contain;
+    background-repeat: space;
+    z-index: 1;
 }
+
 img {
-	width: 100%;
-	height: auto;
-	display: block;
+    width: 100%;
+    height: auto;
+    display: block;
 }
+
 section {
-	margin-top: 35px;
+    margin-top: 35px;
 }
 
 /* Nav */
 
 header {
-	height: 0;
-	background-color: white;
+    height: 0;
+    background-color: white;
 }
+
 nav {
-	width: 100vw;
-	top: 0;
-	height: auto;
-	display: flex;
-	flex-direction: row;
-	border-bottom: solid black 1px;
-	background-color: white;
-	position: fixed;
-	z-index: 6;
+    width: 100vw;
+    top: 0;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid black 1px;
+    background-color: white;
+    position: fixed;
+    z-index: 6;
 }
+
 nav img {
-	height: 25px;
-	width: auto;
-	padding-right: 10vw;
-	padding-left: 20px;
-	padding-top: 5px;
+    height: 25px;
+    width: auto;
+    padding-right: 10vw;
+    padding-left: 20px;
+    padding-top: 5px;
 }
+
 nav .menu {
-	padding-top: 5px;
+    padding-top: 5px;
 }
+
 nav .menu a {
-	font-family: 'Helvetica Neue', sans-serif;
-	font-size: 15px;
-	font-weight: 200;
-	text-transform: uppercase;
-	text-decoration: none;
-	color: black;
-	padding-left: 6vw;
-	padding-right: 2vw;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    padding-left: 6vw;
+    padding-right: 2vw;
 }
+
 nav .menu a:hover {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 /* FONTS */
@@ -74,114 +83,122 @@ nav .menu a:hover {
 /* H1 */
 
 h1 {
-	font-family: 'Helvetica Neue', sans-serif;
-	font-size: 25px;
-	font-weight: 200;
-	color: white;
-	text-align: center;
-	text-transform: uppercase;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 /* H2 */
 
 h2 {
-	font-family: 'Helvetica Neue', sans-serif;
-	font-size: 55px;
-	font-weight: 200;
-	text-transform: uppercase;
-	margin-bottom: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 55px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-bottom: 0;
 }
 
 /* H3 */
 
 h3 {
-	font-family: 'Helvetica Neue', sans-serif;
-	font-size: 20px;
-	font-weight: 200;
-	text-transform: uppercase;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    text-transform: uppercase;
 }
 
 /* H4 */
 
 h4 {
-	font-family: 'Helvetica Neue', sans-serif;
-	font-size: 20px;
-	font-weight: 200;
-	text-transform: uppercase;
-	text-decoration: underline;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    text-transform: uppercase;
+    text-decoration: underline;
 }
 
 /* H5 */
 
 h5 {
-	font-family: 'Helvetica Neue', sans-serif;
-	font-size: 35px;
-	font-weight: 200;
-	text-transform: uppercase;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 35px;
+    font-weight: 200;
+    text-transform: uppercase;
 }
 
 /* P */
 
 p {
-	font-family: 'Helvetica Neue', sans-serif;
-	font-size: 16px;
-	font-weight: 200;
-	line-height: 30px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 30px;
 }
 
 /* a */
 
 a {
-	font-family: 'Helvetica Neue', sans-serif;
-	font-size: 16px;
-	font-weight: 200;
-	line-height: 30px;
-	color: black;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 30px;
+    color: black;
 }
+
 a:visited {
-	font-family: 'Helvetica Neue', sans-serif;
-	font-size: 16px;
-	font-weight: 200;
-	line-height: 30px;
-	color: black;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 30px;
+    color: black;
 }
 
 /* Footer */
 
 footer {
-	z-index: 5;
-	background-color: white;
-	position: relative;
+    z-index: 5;
+    background-color: white;
+    position: relative;
 }
+
 footer .section_wrapper {
-	display: grid;
-	grid-template-columns: 1fr 2fr;
-	column-gap: 0px;
-	border-top: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 0px;
+    border-top: 1px solid black;
 }
+
 footer img {
-	height: 18vw;
-	width: auto;
+    height: 18vw;
+    width: auto;
 }
+
 footer .col {
-	margin: 40px;
+    margin: 40px;
 }
+
 footer .col1 {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	padding-top: 5vw;
-	margin-right: 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 5vw;
+    margin-right: 10vw;
 }
+
 footer .bottom {
-	padding-top: 20px;
+    padding-top: 20px;
 }
+
 .fottericon img {
-	width: 3vw;
-	height: auto;
-	background-color: white;
-	border-radius: 3vw;
+    width: 3vw;
+    height: auto;
+    background-color: white;
+    border-radius: 3vw;
 }
+
 .fottericon img:hover {
-	filter: invert(100%)
+    filter: invert(100%);
 }
