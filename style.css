@@ -21,7 +21,6 @@ main::before {
 img {
 	width: 100%;
 	height: auto;
-	display: block;
 }
 section {
 	margin-top: 35px;
