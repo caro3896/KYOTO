@@ -1,339 +1,306 @@
 /* Generelt */
+
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
-
 body {
-    margin: auto 0;
+	margin: auto 0;
 }
-
 main::before {
-    content: '';
-    position: fixed;
-    right: 10px;
-    top: 0;
-    width: 20px;
-    bottom: 0;
-    background-image: url(faelles_img/Logo1.png);
-    background-size: contain;
-    background-repeat: space;
-    z-index: 1;
+	content: '';
+	position: fixed;
+	right: 10px;
+	top: 0;
+	width: 20px;
+	bottom: 0;
+	background-image: url(faelles_img/Logo1.png);
+	background-size: contain;
+	background-repeat: space;
+	z-index: 1;
 }
-
-
 section img {
-    width: 100%;
-    height: auto;
+	width: 100%;
+	height: auto;
 }
 
 /* FONTS */
 
+
 /* H1 */
+
 h1 {
-    font-family: 'Helvetica Neue', sans-serif;
-    font-size: 25px;
-    font-weight: 200;
-    color: white;
-    text-align: center;
-    text-transform: uppercase;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 25px;
+	font-weight: 200;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
 }
 
 /* H3 */
+
 h3 {
-    font-family: 'Helvetica Neue', sans-serif;
-    font-size: 20px;
-    font-weight: 200;
-    text-transform: uppercase;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 20px;
+	font-weight: 200;
+	text-transform: uppercase;
 }
 
-
 /* P */
+
 p {
-    font-family: 'Helvetica Neue', sans-serif;
-    font-size: 16px;
-    font-weight: 200;
-    line-height: 30px;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 16px;
+	font-weight: 200;
+	line-height: 30px;
 }
 
 /* a */
-a {
-    font-family: 'Helvetica Neue', sans-serif;
-    font-size: 16px;
-    font-weight: 200;
-    line-height: 30px;
-    color: black;
-}
 
+a {
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 16px;
+	font-weight: 200;
+	line-height: 30px;
+	color: black;
+}
 a:visited {
-    font-family: 'Helvetica Neue', sans-serif;
-    font-size: 16px;
-    font-weight: 200;
-    line-height: 30px;
-    color: black;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 16px;
+	font-weight: 200;
+	line-height: 30px;
+	color: black;
 }
 
 /* Nav */
+
 header {
-    position: absolute;
+	position: absolute;
 }
-
 nav {
-    font-family: 'Helvetica Neue', sans-serif;
-    font-size: 12px;
-    font-weight: 200;
-    padding-bottom: 10px;
-    text-transform: uppercase;
-    margin: 0;
-    position: relative;
-    background-color: transparent;
-    border-bottom: none;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 12px;
+	font-weight: 200;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+	margin: 0;
+	position: relative;
+	background-color: transparent;
+	border-bottom: none;
 }
-
-
 ul {
-    list-style-type: none;
-    margin: 10px;
-    margin-top: 30px;
-    padding: 20px;
-    line-height: 25px;
+	list-style-type: none;
+	margin: 10px;
+	margin-top: 30px;
+	padding: 20px;
+	line-height: 25px;
 }
-
 a:link {
-    color: black;
-    text-decoration: none;
+	color: black;
+	text-decoration: none;
 }
-
 a:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
-
 #first_section section_wrapper {
-    margin-top: 0;
+	margin-top: 0;
 }
-
 #second_section a {
-    font-family: 'Helvetica Neue', sans-serif;
-    font-size: 30px;
-    font-weight: 200;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 30px;
+	font-weight: 200;
 }
-
 #front_video {
-    position: relative;
-    z-index: -1;
-    right: 0;
-    top: 0;
-    width: 100%;
-    height: auto;
+	position: relative;
+	z-index: -1;
+	right: 0;
+	top: 0;
+	width: 100%;
+	height: auto;
 }
-
 .logo {
-    position: absolute;
-    top: 25vw;
-    left: 160px;
-    width: 15vw;
+	position: absolute;
+	top: 25vw;
+	left: 160px;
+	width: 15vw;
 }
-
 .shop_now {
-    position: absolute;
-    top: 30vw;
-    left: 160px;
+	position: absolute;
+	top: 30vw;
+	left: 160px;
 }
-
 #first_section .section_wrapper .button {
-    background-color: black;
-    border: 1px solid black;
-    color: white;
-    padding: 4px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 15px;
-    font-family: 'Helvetica Neue', sans-serif;
-    font-weight: 200;
+	background-color: black;
+	border: 1px solid black;
+	color: white;
+	padding: 4px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: 200;
 }
-
 #first_section .section_wrapper a {
-    color: white;
+	color: white;
 }
-
 button:hover {
-    background-color: white;
-    border: 1px solid black;
-    color: black;
-    padding: 4px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 15px;
-    font-family: 'Helvetica Neue', sans-serif;
-    font-weight: 200;
+	background-color: white;
+	border: 1px solid black;
+	color: black;
+	padding: 4px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: 200;
 }
-
 #second_section .section_wrapper {
-    display: grid;
-    grid-template-columns: 2fr 1fr 2fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    column-gap: 10px;
+	display: grid;
+	grid-template-columns: 2fr 1fr 2fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	column-gap: 10px;
 }
-
 #second_section .row {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 0;
 }
-
 #second_section .shop_women {
-    grid-column-start: 3;
-    grid-column-end: span 1;
-    grid-row-start: 1;
-    grid-row-end: span 1;
-    text-align: center;
-    display: grid;
-    align-items: center;
+	grid-column-start: 3;
+	grid-column-end: span 1;
+	grid-row-start: 1;
+	grid-row-end: span 1;
+	text-align: center;
+	display: grid;
+	align-items: center;
 }
-
 #second_section .img_women {
-    grid-column-start: 1;
-    grid-column-end: span 2;
-    grid-row-start: 1;
-    grid-row-end: span 1;
+	grid-column-start: 1;
+	grid-column-end: span 2;
+	grid-row-start: 1;
+	grid-row-end: span 1;
 }
-
 #second_section .img_men {
-    grid-column-start: 2;
-    grid-column-end: span 2;
-    grid-row-start: 2;
-    grid-row-end: span 1;
+	grid-column-start: 2;
+	grid-column-end: span 2;
+	grid-row-start: 2;
+	grid-row-end: span 1;
 }
-
 #second_section .shop_men {
-    grid-column-start: 1;
-    grid-column-end: span 1;
-    grid-row-start: 2;
-    grid-row-end: span 1;
-    text-align: center;
-    display: grid;
-    align-items: center;
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 2;
+	grid-row-end: span 1;
+	text-align: center;
+	display: grid;
+	align-items: center;
 }
-
 #second_section .shop_shoes {
-    grid-column-start: 3;
-    grid-column-end: span 1;
-    grid-row-start: 3;
-    grid-row-end: span 1;
-    text-align: center;
-    display: grid;
-    align-items: center;
+	grid-column-start: 3;
+	grid-column-end: span 1;
+	grid-row-start: 3;
+	grid-row-end: span 1;
+	text-align: center;
+	display: grid;
+	align-items: center;
 }
-
 #second_section .img_shoes {
-    grid-column-start: 1;
-    grid-column-end: span 2;
-    grid-row-start: 3;
-    grid-row-end: span 1;
+	grid-column-start: 1;
+	grid-column-end: span 2;
+	grid-row-start: 3;
+	grid-row-end: span 1;
 }
-
 #second_section .img_sale {
-    grid-column-start: 2;
-    grid-column-end: span 2;
-    grid-row-start: 4;
-    grid-row-end: span 1;
+	grid-column-start: 2;
+	grid-column-end: span 2;
+	grid-row-start: 4;
+	grid-row-end: span 1;
 }
-
 #second_section .shop_sale {
-    grid-column-start: 1;
-    grid-column-end: span 1;
-    grid-row-start: 4;
-    grid-row-end: span 1;
-    text-align: center;
-    display: grid;
-    align-items: center;
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 4;
+	grid-row-end: span 1;
+	text-align: center;
+	display: grid;
+	align-items: center;
 }
-
 #third_section .section_wrapper {
-    width: 100%;
-    height: auto;
-    background-color: black;
-    padding: 40px;
+	width: 100%;
+	height: auto;
+	background-color: black;
+	padding: 40px;
 }
-
 input {
-    width: 300px;
-    padding: 5px;
-    margin-top: 10px;
+	width: 300px;
+	padding: 5px;
+	margin-top: 10px;
 }
-
-form {
-    margin-left: 30vw;
+.subscribe {
+	text-align: center;
 }
-
 #third_section .section_wrapper button {
-    background-color: black;
-    border: 1px solid white;
-    color: white;
-    padding: 4px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 15px;
-    font-family: 'Helvetica Neue', sans-serif;
-    font-weight: 200;
-    cursor: pointer;
+	background-color: black;
+	border: 1px solid white;
+	color: white;
+	padding: 4px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: 200;
+	cursor: pointer;
 }
-
 #third_section button {
-    border: 2px solid white;
+	border: 2px solid white;
 }
 
 /* Footer */
+
 footer {
-    z-index: 5;
-    background-color: white;
-    position: relative;
+	z-index: 5;
+	background-color: white;
+	position: relative;
 }
-
 footer .section_wrapper {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    column-gap: 0px;
-    border-top: 1px solid black;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	column-gap: 0px;
+	border-top: 1px solid black;
 }
-
 footer img {
-    height: 18vw;
-    width: auto;
+	height: 18vw;
+	width: auto;
 }
-
 footer .col {
-    margin: 40px;
+	margin: 40px;
 }
-
 footer .col1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-top: 5vw;
-    margin-right: 10vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-top: 5vw;
+	margin-right: 10vw;
 }
-
 footer .bottom {
-    padding-top: 20px;
+	padding-top: 20px;
 }
-
 .fa {
-    padding: 10px;
-    width: 36px;
-    text-align: center;
-    text-decoration: none;
-    background: white;
-    color: black;
-    border-radius: 50%;
-    border: 1px solid black;
-    transition-duration: 0.4s;
+	padding: 10px;
+	width: 36px;
+	text-align: center;
+	text-decoration: none;
+	background: white;
+	color: black;
+	border-radius: 50%;
+	border: 1px solid black;
+	transition-duration: 0.4s;
 }
-
 .fa:hover {
-    background-color: black;
-    color: white;
+	background-color: black;
+	color: white;
 }
